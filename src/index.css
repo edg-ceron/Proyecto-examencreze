@@ -5,8 +5,6 @@ body{
 /*cuerpo*/
 #cuerpo{
   height: auto;
-  background-image: url("https://st3.depositphotos.com/2435397/13635/i/1600/depositphotos_136358864-stock-photo-cartoon-scene-with-kids-playing.jpg");
-  display: flex;
   height: 80vh;
 }
 
@@ -27,6 +25,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   background-size: 30%;
+  height: 58%;
 }
 
 .cuerp-consultar{
@@ -79,4 +78,84 @@ body{
   text-align: center;
   flex-direction: column;
   margin-top:39px ;
+}
+/*------------Consulta--------------*/
+.consulta-container-filtro{
+  margin-top: 7px;
+}
+
+.inputName{
+width: 259px !important;
+}
+
+.consulta-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #003569;
+  color: #FDFFFC;
+  width: 100px;
+  height: 35px;
+  border-radius: 12px;
+}
+
+.consulta-container{
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.consulta-imagen{
+  height: 40vh;
+  background-color: #2EC4B6;
+}
+
+
+.tabla{
+  height: 472px;
+  display: flex;
+  justify-content: center;
+  background-color: #D3D0CB;
+
+}
+
+.tabla h3{
+  font-family: 'Source Serif Pro', serif;
+  margin-top: -52px;
+  margin-right: -41px;
+  font-size: 34px;
+  color: black;
+}
+
+.tabla table{
+  width: 565px;
+  margin: 0;
+  opacity: 0;
+  transition: 4s;
+}
+
+.tabla td{
+  margin: 0;
+  height: 40px;
+  width: 188.333px;
+  padding-left: 10px;
+  padding-right: 15px;
+  /*border: 1px solid black;*/
+  font-family: 'Poiret One', cursive;
+
+}
+
+.tabla-top {
+  border-bottom: 1px dashed black;
+  font-size: 23px;
+}
+
+.tabla-left{
+  border-bottom: 1px dashed black;
+  /*border-right: 1px dashed black;*/
+  font-size: 20px;
+}
+
+.tabla-0{
+  border: none !important;
 }

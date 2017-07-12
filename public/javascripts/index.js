@@ -1,2 +1,13 @@
+var page = require ('page')
 
-console.log("Hola mundo");
+
+$('.cuerp-reservar-btn').addEventListener('click',function(){
+   page('/consulta', consulta);
+  console.log("presionar sirvio")
+})
+
+
+
+function $(selector){
+  return document.querySelector(selector)
+}

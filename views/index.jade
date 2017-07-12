@@ -2,14 +2,19 @@ extends layout
     
 block content
   section#cuerpo
-    .cuerp-reservar
-      .cuerp-reservar-btn.btn
-        | Reservar una cita
     .cuerp-logo
-      | Logo
-    .cuerp-consultar
-      .cuerp-consultar-btn.btn
-        | Consultar citas
+      .cuerp-logo-txt
+        h1
+          | Tratamientos para niños
+          |Contamos con un dentista para niños
+          |  en cada una de nuestras clínicas
+    .cuerp-reservar
+      a(href="/reservacion")
+        .cuerp-reservar-btn.btn
+          | Reservar una cita
+      a(href="/consulta")
+        .cuerp-consultar-btn.btn
+          | Consultar citas
   footer#footer
     .footer-texto
       .margen
