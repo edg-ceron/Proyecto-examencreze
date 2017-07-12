@@ -5,9 +5,9 @@ body{
 /*cuerpo*/
 #cuerpo{
   height: auto;
-  background-color: #F1F1F1;
+  background-image: url("https://st3.depositphotos.com/2435397/13635/i/1600/depositphotos_136358864-stock-photo-cartoon-scene-with-kids-playing.jpg");
   display: flex;
-  height: 100vh;
+  height: 80vh;
 }
 
 .cuerp-reservar{
@@ -58,6 +58,7 @@ body{
   font-family: 'Open Sans', sans-serif;
   justify-content: center;
   position: absolute;
+  bottom: 0;
   width: 100%;
 }
 

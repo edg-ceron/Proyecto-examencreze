@@ -1,5 +1,26 @@
 extends layout
-
+    
 block content
-  h1= title
-  p Welcome to #{title}
+  section#cuerpo
+    .cuerp-reservar
+      .cuerp-reservar-btn.btn
+        | Reservar una cita
+    .cuerp-logo
+      | Logo
+    .cuerp-consultar
+      .cuerp-consultar-btn.btn
+        | Consultar citas
+  footer#footer
+    .footer-texto
+      .margen
+        p Contacto en: 
+        .footer-img
+          a(href='https://www.facebook.com/edgar.ceronmiranda')
+            img.footer-img-1(src='images/facebook.png', alt='')
+          a(href='')
+            img.footer-img-2(src='images/linkedin.png', alt='')
+        .footer-final
+          p Terms & conditions Privacy policy Copyrights Notification
+          h6
+            | ©2017 Derechos Reservados. unocero es una marca registrada de Servicios Track Cero, S.C.
+            script(type='application/javascript' src='javascripts/index.js')
