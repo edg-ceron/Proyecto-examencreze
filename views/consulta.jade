@@ -12,9 +12,10 @@ block content
        .consulta-container-txt
          input#fname.form-control.inputName(name='name', type='text', placeholder='Nombre')
        .consulta-container-btn
-         .consulta-btn
+         #btn.consulta-btn
            | Buscar
      .consulta-tabla
+       table(id='tabla')
      .consulta-imagen
    footer#footer
      .footer-texto.fondo
@@ -29,4 +30,4 @@ block content
            p Terms & conditions Privacy policy Copyrights Notification
            h6
              | ©2017 Derechos Reservados. unocero es una marca registrada de Servicios Track Cero, S.C.
-             script(type='application/javascript' src='javascripts/index.js')
+             script(type='application/javascript' src='javascripts/consulta.js')

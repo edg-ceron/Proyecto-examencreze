@@ -1,43 +1,22 @@
 extends layout
     
 block content
-   section#container-reservacion
-     div
-       .container
-         .row
-           .col-md-12
-             .well.well-sm
-               form.form-horizontal(method='post')
-                 fieldset
-                   legend.text-center.header Contacto
-                   .form-group
-                     span.col-md-1.col-md-offset-2.text-center
-                       i.fa.fa-user.bigicon
-                     .col-md-8
-                       input#fname.form-control(name='name', type='text', placeholder='Nombre')
-                   .form-group
-                     span.col-md-1.col-md-offset-2.text-center
-                       i.fa.fa-user.bigicon
-                     .col-md-8
-                       input#lname.form-control(name='name', type='text', placeholder='Apellido')
-                   .form-group
-                     span.col-md-1.col-md-offset-2.text-center
-                       i.fa.fa-envelope-o.bigicon
-                     .col-md-8
-                       input#email.form-control(name='email', type='text', placeholder='@email.com')
-                   .form-group
-                     span.col-md-1.col-md-offset-2.text-center
-                       i.fa.fa-phone-square.bigicon
-                     .col-md-8
-                       input#phone.form-control(name='phone', type='text', placeholder='Telefono')
-                   .form-group
-                     span.col-md-1.col-md-offset-2.text-center
-                       i.fa.fa-pencil-square-o.bigicon
-                     .col-md-8
-                       textarea#message.form-control(name='message', placeholder='Motivo de la visita.', rows='7')
-                   .form-group
-                     .col-md-12.text-center
-                       button.btn.btn-primary.btn-lg(type='submit') Reservar
+   section
+   .container-reservacion
+    p Reservacion
+    form#nueva-persona(method='post')
+      label(for='equipo') Nombre:
+      input#nombre(type='text', name='', value='', required='')
+      label(for='puntos') Apellido:
+      input#apellido(type='text', name='', value='', required='')
+      label(for='puntos') Email:
+      input#email(type='email', name='', value='', required='null')
+      label(for='puntos') Telefono:
+      input#telefono(type='number', name='', value='', required='')
+      label(for='puntos') Asunto:
+      textarea#area(name='', type='text', value='', rows='8', cols='80')
+      input(type='submit', name='', value='Añadir Equipo')
+
    footer#footer
      .footer-texto.fondo
        .margen
@@ -51,4 +30,4 @@ block content
            p Terms & conditions Privacy policy Copyrights Notification
            h6
              | ©2017 Derechos Reservados. unocero es una marca registrada de Servicios Track Cero, S.C.
-             script(type='application/javascript' src='javascripts/index.js')
+             script(type='application/javascript' src='javascripts/reservar.js')

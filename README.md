@@ -4,15 +4,15 @@ Una aplicacion web de un consultorio dental,enfocada al empleado de recepcion, e
 
 ***
 
-###Paquetes:
+##Paquetes:
 
 -express
 
--bootstrap
 
 ***
 
-###Instalacion
+##Instalacion
+
 Para usar este proyecto se realizara lo siguiente:
 
 Crea un fork del proyecto desde github y luego clona el repositorio en un directorio local
