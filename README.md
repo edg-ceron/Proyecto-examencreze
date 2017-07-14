@@ -4,14 +4,22 @@ Una aplicacion web de un consultorio dental,enfocada al empleado de recepcion, e
 
 ***
 
-##Paquetes:
+#Paquetes:
 
--express
+-Express
 
+-JQuery
 
+-Pages
+
+-Browserify
+
+-Empty-element
+
+-yo-yo
 ***
 
-##Instalacion
+#Instalacion
 
 Para usar este proyecto se realizara lo siguiente:
 
